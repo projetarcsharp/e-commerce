@@ -1,0 +1,209 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/richardy/CodeLab/projects/e-commerce/Server/ECommerce.Server.csproj": {}
+  },
+  "projects": {
+    "/home/richardy/CodeLab/projects/e-commerce/Client/ECommerce.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/richardy/CodeLab/projects/e-commerce/Client/ECommerce.Client.csproj",
+        "projectName": "ECommerce.Client",
+        "projectPath": "/home/richardy/CodeLab/projects/e-commerce/Client/ECommerce.Client.csproj",
+        "packagesPath": "/home/richardy/.nuget/packages/",
+        "outputPath": "/home/richardy/CodeLab/projects/e-commerce/Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/richardy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/richardy/CodeLab/projects/e-commerce/Shared/ECommerce.Shared.csproj": {
+                "projectPath": "/home/richardy/CodeLab/projects/e-commerce/Shared/ECommerce.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[7.0.11, 7.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/home/richardy/CodeLab/projects/e-commerce/Server/ECommerce.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/richardy/CodeLab/projects/e-commerce/Server/ECommerce.Server.csproj",
+        "projectName": "ECommerce.Server",
+        "projectPath": "/home/richardy/CodeLab/projects/e-commerce/Server/ECommerce.Server.csproj",
+        "packagesPath": "/home/richardy/.nuget/packages/",
+        "outputPath": "/home/richardy/CodeLab/projects/e-commerce/Server/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/richardy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/richardy/CodeLab/projects/e-commerce/Client/ECommerce.Client.csproj": {
+                "projectPath": "/home/richardy/CodeLab/projects/e-commerce/Client/ECommerce.Client.csproj"
+              },
+              "/home/richardy/CodeLab/projects/e-commerce/Shared/ECommerce.Shared.csproj": {
+                "projectPath": "/home/richardy/CodeLab/projects/e-commerce/Shared/ECommerce.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/richardy/CodeLab/projects/e-commerce/Shared/ECommerce.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/richardy/CodeLab/projects/e-commerce/Shared/ECommerce.Shared.csproj",
+        "projectName": "ECommerce.Shared",
+        "projectPath": "/home/richardy/CodeLab/projects/e-commerce/Shared/ECommerce.Shared.csproj",
+        "packagesPath": "/home/richardy/.nuget/packages/",
+        "outputPath": "/home/richardy/CodeLab/projects/e-commerce/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/richardy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
